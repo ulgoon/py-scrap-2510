@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-scrap-2510"
+version = "0.1.0"
+description = ""
+authors = ["ulgoon <ulgoon89@gmail.com>"]
+readme = "README.md"
+packages = [{include = "py_scrap_2510"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
