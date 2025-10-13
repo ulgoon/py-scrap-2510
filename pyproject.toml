@@ -8,6 +8,11 @@ packages = [{include = "py_scrap_2510"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+jupyter = "^1.1.1"
+requests = "^2.32.5"
+beautifulsoup4 = "^4.14.2"
+lxml = "^6.0.2"
+selenium = "^4.36.0"
 
 
 [build-system]
